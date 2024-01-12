@@ -8,7 +8,7 @@ const userRoutes = require("./routes/userRoutes")
 const postRoutes = require("./routes/postRoutes")
 const postCategoriesRoutes = require("./routes/postCategoriesRoutes")
 const commentRoutes = require('./routes/commentRoutes');
-
+//
 const app = express()
 connectDB()
 app.use((req, res, next) => {
